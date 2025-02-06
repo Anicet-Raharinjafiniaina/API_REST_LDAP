@@ -5,10 +5,10 @@ import base64
 from ldap3 import Server, Connection, ALL, NTLM
 
 # Configuration LDAP
-LDAP_SERVER = 'ldap://basan.mg'
-LDAP_PORT = 389
-LDAP_DN = 'dc=basan,dc=mg'
-LDAP_DOMAIN = 'BASAN\\'
+LDAP_SERVER = 'ldap://xxxxx.mg'
+LDAP_PORT = XXX
+LDAP_DN = 'dc=xxxx,dc=mg'
+LDAP_DOMAIN = 'XXXXX\\'
 
 # Attributs à récupérer
 LDAP_ATTRIBUTES = [
